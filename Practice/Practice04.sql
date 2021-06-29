@@ -5,10 +5,6 @@ where salary < (select  avg(salary)
                 from employees);
                 
 --Q2
-select  avg(salary),
-        max(salary)
-from employees;
-
 select  employee_id,
         first_name,
         salary,
